@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to JavaScript & DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 id="main-title">Welcome to My JS Page</h1>
+    </header>
+
+    <!-- Section with Text -->
+    <section>
+      <p id="dynamic-text">Click the button below to change this text.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <!-- Section with Style Change -->
+    <section>
+      <p id="style-text">Click to change my color and font size!</p>
+      <button onclick="styleText()">Style Me</button>
+    </section>
+
+    <!-- Section with Add/Remove Element -->
+    <section>
+      <div id="container">
+        <p>This is a dynamic area. Click the buttons to add/remove content.</p>
+      </div>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 My JavaScript Playground</p>
+    </footer>
+
+    <!-- Link to JS File -->
+    <script src="script.js"></script>
+  </body>
+</html>
